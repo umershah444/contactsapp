@@ -128,7 +128,7 @@ public class BlankFragment extends Fragment {
 
 
 
-        Button close=(Button) view.findViewById(R.id.close);
+        Button close=(Button) view.findViewById(R.id.add);
         close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

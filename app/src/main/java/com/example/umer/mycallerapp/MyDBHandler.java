@@ -29,7 +29,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         ContentValues contentValues=new ContentValues();
         contentValues.put("name",name);
         contentValues.put("phone",phone);
-        sqLiteDatabase.insert("MyContacts",null,contentValues);
+        sqLiteDatabase.update("MyContacts",contentValues,"name=abc",null);
     }
     void getData()
     {
